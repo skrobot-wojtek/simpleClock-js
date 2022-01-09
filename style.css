@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(230, 202, 80);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;  
+}
+.topic{
+    font-size: 50px;
+}
+#clock{
+    width: 80vw;
+    height: 5vh;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
