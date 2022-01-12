@@ -15,5 +15,5 @@ function zegar(){
     
     document.getElementById('clock').innerHTML = godzina+'-'+minuta+'-'+sekunda+' ------ '+dzien+'-'+miesiac+'-'+rok;;
     
-    setTimeout(zegar, 1000);
+    setTimeout(zegar, 1000); // other ver. (zegar(), 1000) or ('zegar()', 1000) are incorrrect
 } 
